@@ -1,0 +1,40 @@
+.buttonDate {
+    background-color: #212529;
+    color: white;
+}
+
+.activeButton {
+    background-color: white !important;
+    color: black !important;
+}
+
+.page>ul {
+    align-items: center;
+}
+
+.page-link {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none !important;
+    color: white;
+    font-size: larger !important;
+    font-weight: bold !important;
+    margin: 0px !important;
+    padding: 6px 12px !important;
+}
+
+.activePage .page-link {
+    color: red !important;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0px !important;
+    padding: 6px 12px !important;
+}
+
+.page-link:hover {
+    color: rgb(238, 1, 1) !important;
+}
+
+.buttonPage:hover {
+    color: red !important;
+    background-color: #21252900;
+}

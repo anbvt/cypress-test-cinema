@@ -1,0 +1,17 @@
+{
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "zuhot-cinema.cpmuzlotc8wi.us-east-1.rds.amazonaws.com",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "aws",
+            "database": "Cinema",
+            "username": "postgres"
+        }
+    ]
+}

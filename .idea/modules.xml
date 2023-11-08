@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Cypress.iml" filepath="$PROJECT_DIR$/.idea/Cypress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FE_Cinema_EditProfile.iml" filepath="$PROJECT_DIR$/.idea/FE_Cinema_EditProfile.iml" />
     </modules>
   </component>
 </project>

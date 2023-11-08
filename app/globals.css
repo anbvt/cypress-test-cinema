@@ -1,0 +1,16 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-main {
+    background-color: #1d212b;
+    padding: 0
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+    background-color: #161b23;
+}
