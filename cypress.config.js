@@ -1,11 +1,11 @@
-import { defineConfig } from "cypress";
 
-export default defineConfig({
+const { defineConfig } = require("cypress");
+
+module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      baseUrl: "https://zuhot-cinema.vercel.app/"
     },
-    baseUrl: "http://localhost:3000",
   },
   viewportWidth: 1440,
   viewportHeight: 900,
