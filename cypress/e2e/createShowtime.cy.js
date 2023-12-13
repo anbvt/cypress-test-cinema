@@ -24,6 +24,7 @@ describe('Create Showtime', () => {
         cy.get('span').contains('OK').click()
         cy.get('#insertForm_price').type('70000')
         // Mở cái click() dưới là thêm dữ liệu
+        cy.wait(3000)
         cy.get('.ant-form-item-control-input-content > .ant-btn-primary > span').click()
     })
 })
